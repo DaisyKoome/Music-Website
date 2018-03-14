@@ -1,0 +1,157 @@
+`<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<title>MUZIKIHUB</title>
+
+<style type="text/css">
+	#class1 {
+		background-color: black;
+		color: red;
+			}
+	
+	.subtitles{
+		color: #ff1a1a;
+		font-weight: 200px;
+		font-family: ;
+
+	}
+	.main{
+		background-color: white;
+	}
+	.form1{
+		color: #ff1a1a 
+
+	}
+	.mainbtn{
+		background-color: #ff1a1a;
+		color: black;
+		padding: 11px;
+		border: #ff1a1a;
+		border-radius: 50px ;
+
+	}
+	.mainbtn:hover{
+		color: #ff1a1a;
+		background-color: white;
+
+	}
+	.mainbtn:active{
+		color: white;
+		background-color: #990000;
+		border: #990000;
+		border-radius: 50px 20px;
+	}
+
+
+
+
+/*   ===================================   Tool tip styling ================================*/
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.social{
+   	background-color: black;
+   	color: red;
+   	font-size: 30px;
+   	font-style: bold; 
+   	  }
+</style>
+
+
+</head>
+<body>
+
+<!-- <h2 class="subtitles">New Releases</h2>
+<div class="tooltip"><video controls="autoplay" width="400" height="250"  src="videos/video1.mp4"></video>
+  <span class="tooltiptext"><Source ="videos/video1.mp4"></span>
+</div> -->
+
+<!--==================================== rOW 1=========================================== -->
+<DIV  class="row"  id="class1">
+<div class="col-md-4"><img src="images/logo2.PNG" width="100" height="50"></div>
+<div class="col-md-8"><h1>MUZIKI HUB</h1></div>
+</DIV>
+<br>
+<!-- ==================================End of heading======================================   -->
+
+<!--................................ Start of buttons/ menu.................................. -->
+
+<div class="row" background-color=#ff1a1a>
+
+	<div class="col-md-4"><center><a href="Home.html" class="mainbtn">Home</a></center></div>
+    <div class="col-md-4"><center><a href="Musicpage.html" class="mainbtn">Music</a></center></div>
+    <div class="col-md-4"><center><a href="AboutUs.html" class="mainbtn">About Us</a></center></div>
+</div>
+<br>
+<DIV  class="row">
+<div class=""><form class="form1">
+	<center><input type="text" name="Music" placeholder="Search for Genres, Song Titles and Artists" >
+    <input type="radio" name="mediatype" value="audio">Audio
+    <input type="radio" name="mediatype" value="video">Video
+	<input type="submit" name="submit" >
+	</center></form></div>
+</DIV>
+<div class="row">
+<div class="col-md-1"></div>
+<div class="col-md-10 main" >
+<!-- tooltip -->
+	<!-- new releases missing -->
+<h2 class="subtitles">Trending</h2>
+<video width="400" height="250" autoplay controls src="videos/Proclaim - Awesome God.mp4"></video>
+<video width="400" height="250" controls src="videos/MercyMe - Dear Younger Me (Official Lyric Video).mp4"></video>
+<video width="400" height="250" controls src="videos/[Official Video] Carol of the Bells - Pentatonix.mp4"></video>
+<video width="400" height="250" controls src="videos/Proclaim - Mary did you know..mp4"></video>
+<video width="400" height="250" controls src="videos/Kutembea Nawe - Rebekah Dawn (OFFICIAL MUSIC VIDEO).mp4"></video>
+<video width="400" height="250" controls src="videos/video1.mp4"></video>
+
+<h2 class="subtitles">Award Winning</h2>
+<video width="400" height="250"  src="videos/Tauren Wells - Hills and Valleys (Acoustic Video).mp4"></video>
+<video controls="autoplay" width="400" height="250"  src="videos/TobyMac - Love Broke Thru.mp4"></video>
+<h2 class="subtitles">New Releases</h2>
+<video width="400" height="250"  src="videos/[Official Video] Little Drummer Boy - Pentatonix.mp4"></video>
+<video width="400" height="250"  src="videos/The Walls Group - Perfect People.mp4"></video>
+</div>
+<div class="col-md-1"></div>
+</div>
+<div class="row social">
+<center>
+	<p class="Follow">Follow Us On</p>
+	<a href=""><img width="40" height="25" src="images/images.jpg"></a>
+	<a href=""><img width="40" height="25" src="images/images.png"></a>
+	<a href=""><img width="40" height="25" src="images/images-1.jpg"></a>
+	
+</center>
+<p></p>
+<p></p>
+<p></p>
+
+</div>
+
+
+</body>
+</html>
